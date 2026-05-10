@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#efefef;
+  font-family:'Poppins',sans-serif;
+  background-color: black;
+}
+section{
+    width: 70.8%;
+    background-color: rgb(248,248,248);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+.main{
+    width: 97%;
+    height:  100%;
+    margin: auto;
+    padding: 20px 0px ;
+    display: flex;
+   
+    
+}
+
+.leftside{
+  width: 60%;
+  padding: 20px  60px;
+ 
+  
+  height: 95vh;
+   border-radius: 18px 0 0 18px;
+  background-color: rgb(252,198,12);
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.hero-content{
+     margin-top:150px;
+
+  position:relative;
+  z-index:2;
+  display: flex;
+  flex-direction: column;
+ gap: 20px;
+}
+.hero-content h1{
+      font-weight:600;
+ font-size:100px;
+  color:#000;
+ 
+  line-height:1;
+
+ 
+}
+.leftside img{
+    width: 140px;
+}
+
+.subtitle{
+    font-size:13px;
+
+  font-weight:600;
+
+  letter-spacing:5px;
+margin-top:-20px;
+  color:#000;
+}
+.pokeball-bg{
+    overflow: hidden;
+}
+.pokeball-bg img{
+    width: 465px;
+    
+    margin-top: -30px;
+    
+
+    margin-left: -140px;
+    
+}
+
+.hero-content p{
+  width:380px;
+
+  font-size:14px;
+
+  line-height:1.8;
+
+  color:#222;
+
+ 
+}
+.hero-right{
+  width:38%;
+  border-radius: 0px 18px 0px 18px;
+  background:#f6e8be;
+
+  position:relative;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+
+.menu-icon{
+  position:absolute;
+
+  top:50px;
+  right:50px;
+
+  display:flex;
+  flex-direction:column;
+
+  gap:10px;
+}
+
+.menu-icon span{
+  width:48px;
+  height:4px;
+
+  background:#000;
+
+  border-radius:10px;
+}
+
+
+
+.pikachu-img{
+  width:460px;
+
+  position:absolute;
+
+  left:-180px;
+
+  z-index:2;
+}
+
+
+
+.slider-dots{
+  position:absolute;
+
+  right:45px;
+
+  display:flex;
+  flex-direction:column;
+
+  gap:22px;
+}
+
+.slider-dots span{
+  width:16px;
+  height:16px;
+
+  border-radius:50%;
+
+  background:#f3c400;
+
+  opacity:0.5;
+}
+
+.slider-dots .active{
+  background:#000;
+  opacity:1;
+}
+section img{
+    width: 400px;
+}
+
+@media(max-width:1200px){
+
+  .pokemon-hero{
+    flex-direction:column;
+    height:auto;
+  }
+
+  .hero-left,
+  .hero-right{
+    width:100%;
+  }
+
+  .hero-content h1{
+    font-size:100px;
+  }
+
+  .pikachu-img{
+    position:relative;
+    width:500px;
+    left:0;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .leftside{
+    padding:40px 30px;
+  }
+
+  .hero-content{
+    margin-top:80px;
+  }
+
+  .hero-content h1{
+    font-size:70px;
+  }
+
+  .hero-content p{
+    width:100%;
+    font-size:18px;
+  }
+
+  .subtitle{
+    letter-spacing:5px;
+    font-size:14px;
+  }
+
+}
