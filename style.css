@@ -33,7 +33,7 @@ section{
 
 .leftside{
   width: 60%;
-  padding: 20px  40px;
+  padding: 20px  60px;
  
   position:relative;
   height: 95vh;
@@ -145,7 +145,7 @@ margin-top:-20px;
 
   position:absolute;
 
-  left:-100px;
+  left:-120px;
 
   z-index:2;
 }
