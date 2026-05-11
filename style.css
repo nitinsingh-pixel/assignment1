@@ -33,7 +33,7 @@ section{
 
 .leftside{
   width: 60%;
-  padding: 20px  50px;
+  padding: 20px  40px;
  
   position:relative;
   height: 95vh;
@@ -64,7 +64,7 @@ section{
  
 }
 .leftside img{
-    width: 100px;
+    width: 80px;
 }
 
 .subtitle{
