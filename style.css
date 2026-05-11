@@ -87,6 +87,7 @@ section {
   width: auto;
   display: flex;
   /* align-items: self-end; */
+  padding: 0;
 
 }
 
