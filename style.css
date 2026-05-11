@@ -45,7 +45,7 @@ section{
 
 }
 .hero-content{
-     margin-top:100px;
+     margin-top:120px;
  max-width: 200px;
   position: absolute;
   z-index:2;
@@ -93,7 +93,7 @@ margin-top:-20px;
 }
 
 .hero-content p{
-  width:300px;
+  width:270px;
 
   font-size:12px;
 
